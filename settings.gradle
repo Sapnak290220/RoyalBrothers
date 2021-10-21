@@ -1,0 +1,2 @@
+rootProject.name = "Royal Brothers"
+include ':app'

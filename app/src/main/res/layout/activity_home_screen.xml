@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    tools:context=".HomeScreenActivity">
+
+    <FrameLayout
+        android:id="@+id/myContainer"
+        android:layout_gravity="top"
+        android:layout_weight="12"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#ffffff"
+        app:itemIconTint="@drawable/change_color_bottom_nav"
+        android:layout_gravity="bottom"
+        app:itemTextColor="@drawable/change_color_bottom_nav"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav_item_menu"
+        android:fitsSystemWindows="true"
+        app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior" />
+
+
+
+
+</LinearLayout>

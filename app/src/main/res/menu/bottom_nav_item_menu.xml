@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_menu"
+        android:enabled="true"
+        android:checked="true"
+        android:icon="@drawable/home1"
+        android:title="HOME"/>
+    <item
+        android:id="@+id/tariff_menu"
+        android:enabled="true"
+        android:icon="@drawable/tariff"
+        android:title="TARIFF"/>
+
+    <item
+        android:id="@+id/rbx_menu"
+        android:enabled="true"
+        android:icon="@drawable/rbx"
+        android:title="RBX"/>
+
+
+    <item
+        android:id="@+id/menu"
+        android:enabled="true"
+        android:icon="@drawable/menu"
+        android:title="MENU"/>
+
+
+</menu>
